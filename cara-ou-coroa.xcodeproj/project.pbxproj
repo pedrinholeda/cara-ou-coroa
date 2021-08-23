@@ -61,11 +61,11 @@
 				E400BA6226D42FCC008ED0BC /* AppDelegate.swift */,
 				E400BA6426D42FCC008ED0BC /* SceneDelegate.swift */,
 				E400BA6626D42FCC008ED0BC /* ViewController.swift */,
+				E4168A5626D433C300CC74BB /* DetalhesViewController.swift */,
 				E400BA6826D42FCC008ED0BC /* Main.storyboard */,
 				E400BA6B26D42FCD008ED0BC /* Assets.xcassets */,
 				E400BA6D26D42FCD008ED0BC /* LaunchScreen.storyboard */,
 				E400BA7026D42FCD008ED0BC /* Info.plist */,
-				E4168A5626D433C300CC74BB /* DetalhesViewController.swift */,
 			);
 			path = "cara-ou-coroa";
 			sourceTree = "<group>";

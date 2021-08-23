@@ -8,22 +8,29 @@
 import UIKit
 
 class DetalhesViewController: UIViewController {
-
+    
+    // MARK: Properties
+    var numeroRandomico: Int = 0
+    
+    // MARK: Outlets
+    @IBOutlet weak var imageMoeda: UIImageView!
+    
+    // MARK: Initialization
+    
+    // MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        mudarImagem()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: Actions
+    
+    // MARK: Methods
+    private func mudarImagem(){
+        if numeroRandomico == 0 {
+            imageMoeda.image = UIImage(named: "moeda_cara")
+        }else{
+            imageMoeda.image = UIImage(named: "moeda_coroa")
+        }
     }
-    */
-
 }

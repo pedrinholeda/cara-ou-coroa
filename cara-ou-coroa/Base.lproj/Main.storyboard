@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="174" width="321" height="74"/>
                                         <state key="normal" image="botao_jogar"/>
                                         <connections>
-                                            <segue destination="pU3-Qe-LT6" kind="show" id="WFg-4p-jlo"/>
+                                            <segue destination="pU3-Qe-LT6" kind="show" identifier="jogarMoeda" id="WFg-4p-jlo"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -64,6 +64,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Pnd-zi-2AO"/>
+                    <connections>
+                        <outlet property="imageMoeda" destination="jvh-Hg-aDD" id="Q48-fS-WEg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7g-HK-Cff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
